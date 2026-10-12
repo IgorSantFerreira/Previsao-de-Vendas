@@ -117,16 +117,3 @@ Previsao-de-Vendas/
 ├── advertising.csv
 ├── previsao_vendas_machine_learning.ipynb
 └── readme.md
-~~~
-
-## Limitações e próximos passos
-
-Apesar dos resultados, a análise tem limitações: são apenas 200 observações, o teste final tem 40 registros e a origem e as unidades da base não estão documentadas. Além disso, faltam variáveis que poderiam influenciar as vendas, como preço, sazonalidade e concorrência.
-
-Como próximos passos, pretendo documentar melhor a procedência dos dados e avaliar a capacidade de generalização em uma base externa, com observações novas. Também faria sentido testar variáveis adicionais e acompanhar a estabilidade do modelo antes de pensar em uma aplicação real.
-
-O principal aprendizado deste projeto foi comparar modelos de forma estruturada, separando a exploração dos dados da avaliação final e evitando escolher o modelo apenas pelo desempenho no treinamento.
-
----
-
-**Notebook completo:** [`previsao_vendas_machine_learning.ipynb`](previsao_vendas_machine_learning.ipynb)
